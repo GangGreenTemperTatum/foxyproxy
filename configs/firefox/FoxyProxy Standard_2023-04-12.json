@@ -1,0 +1,102 @@
+{
+  "623ma81681313272398": {
+    "type": 1,
+    "color": "#66cc66",
+    "title": "MITM2Proxy mitmweb DEFAULT",
+    "active": true,
+    "address": "127.0.0.1",
+    "port": 8081,
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [],
+    "pacURL": "",
+    "index": 1
+  },
+  "logging": {
+    "size": 100,
+    "active": false
+  },
+  "mode": "q2r4091681274117785",
+  "pycabe1681308876145": {
+    "type": 1,
+    "color": "#66cc66",
+    "title": "OWASP ZAP Proxy DEFAULT",
+    "active": true,
+    "address": "127.0.0.1",
+    "port": 8081,
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [],
+    "pacURL": "",
+    "index": 2
+  },
+  "q2r4091681274117785": {
+    "type": 1,
+    "color": "#66cc66",
+    "title": "Burp Suite Default",
+    "active": true,
+    "address": "127.0.0.1",
+    "port": 8080,
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [],
+    "pacURL": "",
+    "index": 0
+  },
+  "qhuq21681308889824": {
+    "type": 1,
+    "color": "#66cc66",
+    "title": "Postman DEFAULT",
+    "active": true,
+    "address": "127.0.0.1",
+    "port": 8080,
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [],
+    "pacURL": "",
+    "index": 3
+  },
+  "browserVersion": "111.0.1",
+  "foxyProxyVersion": "7.5.1",
+  "foxyProxyEdition": "standard"
+}
